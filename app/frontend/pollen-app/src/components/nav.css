@@ -1,0 +1,14 @@
+.navigation{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navigation button {
+    margin: 0 10px; /* Добавляет отступы между кнопками */
+}
+
+.active button {
+    color: #8eb505; /* Цвет текста для активной кнопки */
+    border: 2px solid #8eb505;
+}

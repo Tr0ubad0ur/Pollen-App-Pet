@@ -1,0 +1,16 @@
+.container{
+    width: 360px;
+    background-color: #393d10;
+    height: 640px;
+}
+
+.About-Text{
+    text-align:justify;
+    margin: 0 auto;
+    padding: 20px;
+    color: #C7B8A5;
+}
+
+.About-Text h1{
+    color: #8eb505;
+}
