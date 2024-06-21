@@ -1,8 +1,11 @@
 .button {
-    border-radius: 10px;
-    color: #C7B8A5;
+    color: #BFE600;
     cursor: pointer;
     font-size: small;
-    border: 2px solid #C7B8A5;
-    background-color: transparent;
+    background-color: #000;
+    border: none;
+    padding: 10px 5px;
+    width: 70px;
+    font-weight: bold;
+    border-radius: 3px;
   }

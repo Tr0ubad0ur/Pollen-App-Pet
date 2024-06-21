@@ -20,7 +20,7 @@ function Navigation(props) {
         </Link> 
 
         <Link to="/About" className={location.pathname === '/About' ? 'active' : ''}>
-        <Button label="О проекте"></Button>
+        <Button label="Проект"></Button>
         </Link>
       </nav>
   );
