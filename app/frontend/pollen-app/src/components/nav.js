@@ -11,6 +11,10 @@ function Navigation(props) {
         <Button label="Главная"></Button>
         </Link> 
 
+        <Link to="/Load" className={location.pathname === '/' ? 'active' : ''}>
+        <Button label="Загрузка"></Button>
+        </Link> 
+
         <Link to="/Maps" className={location.pathname === '/Maps' ? 'active' : ''}>
         <Button label="Карта"></Button>
         </Link> 

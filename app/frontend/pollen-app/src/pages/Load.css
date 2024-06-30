@@ -1,0 +1,12 @@
+.tree{
+    stroke: #000;
+    stroke-dasharray: 2600;
+    stroke-dashoffset: 2600;
+    animation: tree 3s linear infinite;
+}
+
+@keyframes tree {
+    100% {
+        stroke-dashoffset: 0;
+    }
+}
